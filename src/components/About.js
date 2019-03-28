@@ -12,16 +12,14 @@ function About(props) {
           <h2>About Me</h2>
 
           <p>
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-            quae ab illo inventore veritatis et quasi architecto beatae vitae
-            dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-            aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
-            eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est,
-            qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
-            sed quia non numquam eius modi tempora incidunt ut labore et dolore
-            magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis
-            nostrum exercitationem ullam corporis suscipit laboriosam.
+            Born on 1993 near Modena (IT), I've always been interested in
+            computer science and technology.
+            <br />
+            In 2016 I got my bachelor degree in Software Engineering at the
+            University of Bologna.
+            <br />
+            Right now I work as a software developer in a company that produces
+            cash handling devices, with headquarter in Mirandola (MO).
           </p>
 
           <div class="row">
@@ -33,7 +31,8 @@ function About(props) {
             <div class="columns download">
               <p>
                 <a href="#" class="button">
-                  <i class="fa fa-download" />Download Resume
+                  <i class="fa fa-download" />
+                  Download Resume
                 </a>
               </p>
             </div>

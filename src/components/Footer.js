@@ -1,4 +1,5 @@
 import React from "react";
+import socialLinks from "../data/socialLinks";
 
 function Footer(props) {
   return (
@@ -6,50 +7,23 @@ function Footer(props) {
       <div class="row">
         <div class="twelve columns">
           <ul class="social-links">
-            <li>
-              <a href="#">
-                <i class="fa fa-facebook" />
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <i class="fa fa-twitter" />
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <i class="fa fa-google-plus" />
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <i class="fa fa-linkedin" />
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <i class="fa fa-instagram" />
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <i class="fa fa-dribbble" />
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <i class="fa fa-skype" />
-              </a>
-            </li>
+            {socialLinks.map(p => {
+              return (
+                <li>
+                  <a href={p.link}>
+                    <i class={`fa ${p.fa}`} />
+                  </a>
+                </li>
+              );
+            })}
           </ul>
 
           <ul class="copyright">
-            <li>&copy; Copyright 2014 CeeVee</li>
             <li>
-              Design by{" "}
-              <a title="Styleshout" href="http://www.styleshout.com/">
-                Styleshout
-              </a>
+              &copy; Copyright {new Date().getFullYear()} Giacomo Cavicchioli
+            </li>
+            <li>
+              Made with <span class="fa fa-heart" /> and React
             </li>
           </ul>
         </div>

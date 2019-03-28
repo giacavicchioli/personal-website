@@ -1,25 +1,5 @@
 import React from "react";
-
-const projects = [
-  {
-    img: "images/portfolio/coffee.jpg",
-    title: "Coffee",
-    description: "description",
-    link: "https://www.google.com"
-  },
-  {
-    img: "images/portfolio/console.jpg",
-    title: "Console",
-    description: "description 2",
-    link: "https://www.google.com"
-  },
-  {
-    img: "images/portfolio/farmerboy.jpg",
-    title: "Farmerboy",
-    description: "description 23",
-    link: "https://www.google.com"
-  }
-];
+import projects from "../data/projects";
 
 class Work extends React.Component {
   renderProjects() {
@@ -32,7 +12,7 @@ class Work extends React.Component {
               <div class="overlay">
                 <div class="portfolio-item-meta">
                   <h5>{p.title}</h5>
-                  <p>{p.description}</p>
+                  <p>{p.shortDescription}</p>
                 </div>
               </div>
               <div class="link-icon">

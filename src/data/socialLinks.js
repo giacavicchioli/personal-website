@@ -10,8 +10,13 @@ export default [
     fa: "fa-instagram"
   },
   {
+    key: "facebook",
+    link: "https://www.facebook.com/giacavicchioli",
+    fa: "fa-facebook"
+  },
+  {
     key: "linkedin",
-    link: "#",
+    link: "https://www.linkedin.com/in/giacomocavicchioli/",
     fa: "fa-linkedin"
   }
 ];
