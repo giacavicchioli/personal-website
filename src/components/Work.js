@@ -35,7 +35,7 @@ class Work extends React.Component {
             <p>{p.description}</p>
             <span class="categories">
               <i class="fa fa-tag" />
-              Branding, Webdesign
+              {p.categories}
             </span>
           </div>
 
