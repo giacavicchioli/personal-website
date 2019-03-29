@@ -41,7 +41,7 @@ class Work extends React.Component {
 
           <div class="link-box">
             <a href={p.link}>Details</a>
-            <a class="popup-modal-dismiss">Close</a>
+            <a className="popup-modal-dismiss">Close</a>
           </div>
         </div>
       );

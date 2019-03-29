@@ -23,16 +23,19 @@ function About(props) {
           </p>
 
           <div class="row">
-            <div class="columns contact-details">
+            {/* <div class="columns contact-details">
               <h2>Contact Details</h2>
               <p class="address">test test tsets</p>
-            </div>
+            </div> */}
 
             <div class="columns download">
               <p>
-                <a href="#" class="button">
+                <a
+                  href="https://www.dropbox.com/s/0uph6hb723f99ox/CV.pdf?dl=0"
+                  class="button"
+                >
                   <i class="fa fa-download" />
-                  Download Resume
+                  Download CV
                 </a>
               </p>
             </div>
