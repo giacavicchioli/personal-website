@@ -23,7 +23,10 @@ function Footer(props) {
               &copy; Copyright {new Date().getFullYear()} Giacomo Cavicchioli
             </li>
             <li>
-              Made with <span class="fa fa-heart" /> and React
+              Made with <span class="fa fa-heart" /> and{" "}
+              <a href="https://reactjs.org" target="_blank">
+                React
+              </a>
             </li>
           </ul>
         </div>
