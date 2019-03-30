@@ -4,12 +4,12 @@ import socialLinks from "../data/socialLinks";
 class Header extends React.Component {
   renderSocialLinks() {
     return (
-      <ul class="social">
-        {socialLinks.map(s => {
+      <ul className="social">
+        {socialLinks.map((s, i) => {
           return (
-            <li>
+            <li key={i}>
               <a href={s.link}>
-                <i class={`fa ${s.fa}`} />
+                <i className={`fa ${s.fa}`} />
               </a>
             </li>
           );
@@ -21,9 +21,9 @@ class Header extends React.Component {
   render() {
     return (
       <header id="home">
-        <div class="row banner">
-          <div class="banner-text">
-            <h1 class="responsive-headline">giacavicchioli</h1>
+        <div className="row banner">
+          <div className="banner-text">
+            <h1 className="responsive-headline">giacavicchioli</h1>
             <h3>
               I'm an Italian based <span>software developer</span>.
             </h3>
@@ -32,9 +32,9 @@ class Header extends React.Component {
           </div>
         </div>
 
-        <p class="scrolldown">
-          <a class="smoothscroll" href="#about">
-            <i class="icon-down-circle" />
+        <p className="scrolldown">
+          <a className="smoothscroll" href="#about">
+            <i className="icon-down-circle" />
           </a>
         </p>
       </header>

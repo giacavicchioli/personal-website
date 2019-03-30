@@ -3,12 +3,12 @@ import React from "react";
 function About(props) {
   return (
     <section id="about">
-      <div class="row">
-        <div class="three columns">
-          <img class="profile-pic" src="images/profilepic.jpg" alt="" />
+      <div className="row">
+        <div className="three columns">
+          <img className="profile-pic" src="images/profilepic.jpg" alt="" />
         </div>
 
-        <div class="nine columns main-col">
+        <div className="nine columns main-col">
           <h2>About Me</h2>
 
           <p>
@@ -22,19 +22,19 @@ function About(props) {
             cash handling devices, with headquarter in Mirandola (MO).
           </p>
 
-          <div class="row">
-            {/* <div class="columns contact-details">
+          <div className="row">
+            {/* <div className="columns contact-details">
               <h2>Contact Details</h2>
-              <p class="address">test test tsets</p>
+              <p className="address">test test tsets</p>
             </div> */}
 
-            <div class="columns download">
+            <div className="columns download">
               <p>
                 <a
                   href="https://www.dropbox.com/s/0uph6hb723f99ox/CV.pdf?dl=0"
-                  class="button"
+                  className="button"
                 >
-                  <i class="fa fa-download" />
+                  <i className="fa fa-download" />
                   Download CV
                 </a>
               </p>
