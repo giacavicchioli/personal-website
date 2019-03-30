@@ -1,6 +1,15 @@
 export default [
   {
-    img: "images/portfolio/judah.jpg",
+    img: "images/portfolio/fullstack-udemy.jpg",
+    title: "FullStack Playground",
+    categories: "open source",
+    shortDescription: "fullstack",
+    description:
+      "In 2019 I developed, following a course taught by Stephen Grider on Udemy, an open source fullstack solution to manage marketing campaigns",
+    link: "https://github.com/giacavicchioli/emaily"
+  },
+  {
+    img: "images/portfolio/filarmonica.jpg",
     title: "Filarmonica Website",
     categories: "website",
     shortDescription: "website",
@@ -9,22 +18,12 @@ export default [
     link: "http://www.filarmonicagandreoli.com"
   },
   {
-    img: "images/portfolio/into-the-light.jpg",
+    img: "images/portfolio/innerfognews.jpg",
     title: "Innerfog News",
     categories: "website",
     shortDescription: "website",
     description:
       "During 2015 I cofounded a web magazine, Innerfog News. For a few years I ran the technology department.",
     link: "https://www.facebook.com/innerfognews/"
-  },
-  {
-    img: "images/portfolio/origami.jpg",
-    title: "EncryptMe",
-    categories: "mobile applicaiton",
-    shortDescription: "android app",
-    description:
-      "In my first year at university I played a little with Android apps, one of the first experiments turned out to be more fun than the others, so I decided to publish on the play store.",
-    link:
-      "https://play.google.com/store/apps/details?id=org.altervista.giacomocavicchioli.encryptme&hl=en"
   }
 ];
