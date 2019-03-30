@@ -651,7 +651,7 @@ ul#nav li.current a {
   margin-left: 24px;
 }
 .popup-modal button.popup-modal-dismiss {
-  margin-left: 24px;
+  margin: 0px 24px;
 }
 
 /* fadein/fadeout effect for modal popup
